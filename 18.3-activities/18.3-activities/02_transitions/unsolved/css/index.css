@@ -4,7 +4,7 @@
   grid-template-rows: 1fr 1fr;
   align-items: center;
   justify-items: center;
-  font-family: helvetica, arial, sans-serif;
+  font-family: 'Courier New', Courier, monospace;
   color: white;
   grid-template-areas:
   "hover"
@@ -14,16 +14,40 @@
 }
 .hoverMe {
   grid-area: hover;
-  background-color: red;
+  background-color: blue;
   color: white;
   width: 150px;
   text-align: center;
   height: 50px;
+  transition: .7s ease-in-out;
+  font-family: 'Courier New', Courier, monospace;
   /* Add the css property transition here! */
 
 }
 /* active state */
 .hoverMe:hover {
+  background-color: goldenrod;
+  color: white;
+  width: 300px;
+  height: 100px;
+  transform: translate(-5px, -5px);
+  border-style: solid;
+  border-width: 2px;
+  border-color: red;
+  filter: drop-shadow(5px 5px 0px blue);
+
   /* Add your hover state css here. */
 
+
+
+}
+
+.hoverMe2 {
+  background-color: black;
+  color:aliceblue;
+  width: 400px;
+  height: 300px;
+
+
+  
 }
