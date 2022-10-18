@@ -42,11 +42,11 @@ grid-template-areas:
 }
 #patio{
   grid-area:patio;
-  background-image: url("../images/furniture1.png")
+  background-image: url("../images/furniture1.png");
 }
 #desks {
   grid-area: desks;
-  background-image: url("../images/desks@2x.png")
+  background-image: url("../images/desks@2x.png");
 }
 
 
