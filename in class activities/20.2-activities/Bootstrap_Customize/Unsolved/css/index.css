@@ -47,10 +47,10 @@ p {
 }
 
 .jumbotron {
-  background-image: url("../images/rockOn_dark.jpg");
+  background-image: url("../images/Poster-Electric-Mayhem.webp");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 500px;
+  height: 1500px;
   height: calc(100vh-25px);
   display: flex;
   align-items: center;
@@ -59,18 +59,27 @@ p {
 
 .jumboCopy {
   width: 70%;
-  min-width: 500px;
-  max-width: 700px;
+  min-width: 700px;
+  max-width: 900px;
   color: white;
-  text-align: center;
-}
+  text-align:center;
+  }
 
 .display-4 {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 150pt;
+  
 }
 
 .lead {
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 40pt;
+  font-weight: 300;
+
+}
+
+.content {
+  background-color: black;
 }
 
 .content {
@@ -80,6 +89,9 @@ p {
 .sectionHeading {
   text-align: center;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color:#F2F2F2;
+  font-size: 100pt;
+  text-shadow: 10px 10px red;
 }
 
 .showsNear {
@@ -92,9 +104,11 @@ p {
 
 .card-title {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ 
 }
 .card-text {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ 
 }
 
 
@@ -117,6 +131,15 @@ p {
 
 .try-one {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color:#F2F2F2;
+}
+.try-two {
+  color:#F2F2F2
+}
+
+.try-three {
+  font-size: 30pt;
+  color: black;
 }
 
 .emailContain {
